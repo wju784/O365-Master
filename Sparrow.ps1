@@ -4,7 +4,7 @@
 
     WARNING: Make sure you understand what you're doing before running this script!
 
-    1. This script will prompt for authentication to Azure AD, ExchangeOnline & MSOnline when running this script
+    1. This script will prompt for authentication to Azure AD, ExchangeOnline and MSOnline when running this script
     2. Logs are written to current_user\desktop\ExportDir
 
     
