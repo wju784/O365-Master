@@ -1,0 +1,1 @@
+wmic product where "name like 'ScreenConnect Client%%'" call uninstall /nointeractive
