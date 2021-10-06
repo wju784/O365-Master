@@ -1,0 +1,81 @@
+{
+  "default_powershell_path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+  "console_background": "Black",
+  "console_foreground": "White",
+  "clear_events_when_reload": true,
+  "tabs": [
+    {
+      "header": "Connect O365",
+      "buttons": [
+        {
+          "text": "Connect to Exchange Online",
+          "description": "Connect to Exchange Online via ExchangeOnlineManagement module",
+          "script": "scripts\\exo.ps1",
+          "scriptpathtype": "relative",
+          "arguments": []
+        },
+        {
+          "text": "Connect to AzureAD",
+          "description": "Connect to AzureAD",
+          "script": "scripts\\aad.ps1",
+          "scriptpathtype": "relative",
+          "arguments": []
+        },
+        {
+          "text": "Connect to Partner Tenant",
+          "description": "Partner level GA MFA report",
+          "script": "scripts\\PartnerConnect.ps1",
+          "scriptpathtype": "relative",
+          "arguments": []
+        },
+        {
+          "text": "Exit PSSession",
+          "description": "Close the current remote powershell session",
+          "script": "scripts\\exit.ps1",
+          "scriptpathtype": "relative",
+          "arguments": []
+        }
+      ]
+    },
+    {
+      "header": "CW Automate",
+      "buttons": [
+        {
+          "text": "LabTech Fix - IWR",
+          "description": "Script to recover broken agent",
+          "script": "scripts\\LT-CleanUp-IWR.ps1",
+          "scriptpathtype": "relative",
+          "arguments": []
+        },
+        {
+          "text": "LabTech Fix - BITS",
+          "description": "",
+          "script": "scripts\\LT-CleanUp-BITS.ps1",
+          "scriptpathtype": "relative",
+          "arguments": []
+        },
+        {
+          "text": "Agent Download",
+          "description": "",
+          "script": "scripts\\DownloadAgent.ps1",
+          "scriptpathtype": "relative",
+          "arguments": []
+        },
+        {
+          "text": "Agent Uninstall",
+          "description": "",
+          "script": "scripts\\AgentUninstall.ps1",
+          "scriptpathtype": "relative",
+          "arguments": []
+        },
+        {
+          "text": "TestButton",
+          "description": "",
+          "script": "scripts\\MITS-ExO.ps1",
+          "scriptpathtype": "absolute",
+          "arguments": []
+        }
+      ]
+    }
+  ]
+}
