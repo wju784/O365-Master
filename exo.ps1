@@ -1,1 +1,1 @@
-start-process powershell.exe -argument '-nologo -noprofile -executionpolicy bypass'
+start-process powershell.exe
