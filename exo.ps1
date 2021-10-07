@@ -1,1 +1,1 @@
-start-process powershell.exe -argument '-nologo -noprofile -executionpolicy bypa
+start-process powershell.exe -argument '-nologo -noprofile -executionpolicy bypass -verb runAs
